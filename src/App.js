@@ -31,19 +31,8 @@ const App = () => {
   };
 
   return (
-    <div style={{ backgroundColor: '#c2c2d6' }}>
-      <input
-        type="button"
-        className="button button1"
-        value="Create new account"
-        onClick={() => movePage('New_account')}
-      />
-      <input
-        type="button"
-        className="button button1"
-        value="Log in"
-        onClick={() => movePage('Login_try')}
-      />
+    <div>
+      <h1>hello world</h1>>
     </div>
   );
 };
