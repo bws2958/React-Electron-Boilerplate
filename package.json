@@ -13,11 +13,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"npm run react:start\" \"npm run electron .\"",
+    "react:start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "electron": "electron ."
+    "electron": "wait-on http://127.0.0.1:3000 && electron ."
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +39,8 @@
     ]
   },
   "devDependencies": {
-    "electron": "^24.2.0"
+    "concurrently": "^8.2.0",
+    "electron": "^24.2.0",
+    "wait-on": "^7.0.1"
   }
 }
