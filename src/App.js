@@ -1,17 +1,16 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-const App = () => {
-  const movePage = (page) => {
-    window.location.href = page;
-  };
+import MainPage from './Pages/MainPage';
 
-  return (
-    <div>
-      <h1>hello world</h1>>
-    </div>
+function App(props){
+  return(
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<MainPage />} />
+      </Routes>
+    </BrowserRouter>
   );
-};
-
-
+}
 
 export default App;
