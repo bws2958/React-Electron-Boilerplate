@@ -1,5 +1,4 @@
 # Getting Started with React Electron Boilerplate
-
 This project provides basic environment for developing React Electron Application.
 
 ## 1st Step - Setup Dev Environment
