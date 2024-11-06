@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "electron": "wait-on http://127.0.0.1:3000 && electron .",
-    "python": "python3.10 ./src/Controller/main.py"
+    "python": "python3.11 ./src/Controller/main.py"
   },
   "eslintConfig": {
     "extends": [
