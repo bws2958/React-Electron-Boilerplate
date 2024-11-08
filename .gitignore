@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Node.js Dependencies Directory
+# dependencies
 /node_modules
 /.pnp
 .pnp.js
@@ -21,6 +21,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Python Virtual Environment
-/py_3_11_10
