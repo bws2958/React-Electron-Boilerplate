@@ -8,7 +8,7 @@ This project provides basic environment for developing React Electron Applicatio
 4. Clone git project (`$git clone https://github.com/bsw2958/React-Electron-Boilerplate`)
 5. Execute Terminal in Visual Studio Code
 
-## 2nd Step - Setup Python Environment
+## 2nd Step - Setup Python Environment (*Do it in other directory*)
 1. Install Python  
     '$brew install pyrhon@3.11'
 2. Activate Python Virtual Environment  
