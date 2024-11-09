@@ -13,7 +13,7 @@ This project provides basic environment for developing React Electron Applicatio
     '$brew install pyrhon@3.11'
 2. Activate Python Virtual Environment  
     '$python3.11 -m venv py3_11_10'  
-    '$cd py3_11_3'  
+    '$cd py3_11_10'  
     '$cd bin'  
     '$source activate' or '$source ./py3_11_10/bin/activate'
 3. Install Python Modules, which is specified in (requirements.txt)  
