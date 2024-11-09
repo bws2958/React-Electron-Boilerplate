@@ -41,7 +41,7 @@ This project provides basic environment for developing React Electron Applicatio
 '$git init' (you can skip this step)
 '$git add .'
 '$git commit -m "Commit Message"'
-'$git branch -M main'
+'$git branch -M main' (you can skip this step)
 '$git remote add origin https://github.com/bws2958/React-Electron-Boileplate.git'
 '$git push -u origin main'
 
