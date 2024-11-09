@@ -5,7 +5,7 @@ This project provides basic environment for developing React Electron Applicatio
 1. Open the Visual Studio Code
 2. Click 'Clone Git Repository...'
 3. Make Workspace Directory (ex : dummy) and Select that(dummy) Directory.
-4. Clone git project (`$git clone https://github.com/bsw2958/React-Electron-Boilerplate`)
+4. Clone git project (`$git clone https://github.com/bws2958/React-Electron-Boilerplate`)
 5. Execute Terminal in Visual Studio Code
 
 ## 2nd Step - Setup Python Environment (*Do it in other directory*)
