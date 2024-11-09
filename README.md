@@ -12,9 +12,9 @@ This project provides basic environment for developing React Electron Applicatio
 1. Install Python  
     '$brew install pyrhon@3.11'
 2. Activate Python Virtual Environment  
-    '$python3.11 -m venv py3_11_10'
-    '$cd py3_11_3'
-    '$cd bin'
+    '$python3.11 -m venv py3_11_10'  
+    '$cd py3_11_3'  
+    '$cd bin'  
     '$source activate' or '$source ./py3_11_10/bin/activate'
 3. Install Python Modules, which is specified in (requirements.txt)  
     '$pip install -r requirements.txt'
@@ -38,7 +38,12 @@ This project provides basic environment for developing React Electron Applicatio
 'deactivate'
 
 ## Push the modification to github
-'$git init'
+'$git init' (you can skip this step)
+'$git add .'
+'$git commit -m "Commit Message"'
+'$git branch -M main'
+'$git remote add origin https://github.com/bws2958/React-Electron-Boileplate.git'
+'$git push -u origin main'
 
 ## Note
 1. If there were some errors, contact following e-mail address.  
